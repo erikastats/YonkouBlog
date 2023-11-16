@@ -1,9 +1,34 @@
 ---
 title: "Introduction to Yonkou Project"
-author: "Harlow Malloc"
+author: "Erika Borelli"
 date: "2023-11-16"
 categories: [news, code, analysis]
-image: "image.jpg"
+image: "luffy5.jpeg"
 ---
 
-This is the explanation from the Yonkou Project
+The Yonkou Project is a idea that came from the necessity of learning how to code with the new Shiny universe. But what is the idea, actually? We are going to gather all One Piece data that we can find in the internet and make little Shiny apps, or maybe a big one.
+
+We have so many ideas, some of them we don´t know how to implement yet, so let´s post what we are doing and try to do everything we want.
+
+Some of our objectives are:
+
+- Local de cada personagem
+- Recompensa
+- Fala dos personagens
+- Vendas de mangas
+- Crunch roll visualizações
+- Pesquisa Google
+- Akuma no mis
+- Enciclopédia de  personagens
+- Filer
+- Looks diferentes de personagens
+- Timeline
+- Jogos (memoria e quiz) 
+- Ranking Altura dos personagens
+- Ranking idade
+- Comparação do tamanho dos navios
+- Dubladores
+
+Idealizadoras:
+Erika Borelli
+Heloiza
