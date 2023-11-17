@@ -14,6 +14,13 @@
     "text": "The Yonkou Project is a idea that came from the necessity of learning how to code with the new Shiny universe. But what is the idea, actually? We are going to gather all One Piece data that we can find in the internet and make little Shiny apps, or maybe a big one.\nWe have so many ideas, some of them we don´t know how to implement yet, so let´s post what we are doing and try to do everything we want.\nSome of our objectives are:\n\nLocal de cada personagem\nRecompensa\nFala dos personagens\nVendas de mangas\nCrunch roll visualizações\nPesquisa Google\nAkuma no mis\nEnciclopédia de personagens\nFiler\nLooks diferentes de personagens\nTimeline\nJogos (memoria e quiz)\nRanking Altura dos personagens\nRanking idade\nComparação do tamanho dos navios\nDubladores\n\nIdealizadoras: Erika Borelli Heloiza"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "YonkouBlog",
+    "section": "",
+    "text": "[Transcripting manga: Shiny App]\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nNov 16, 2023\n\n\nErika Borelli\n\n\n\n\n\n\n  \n\n\n\n\nIntroduction to Yonkou Project\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 16, 2023\n\n\nErika Borelli\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 16, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -21,11 +28,11 @@
     "text": "About this blog"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "YonkouBlog",
+    "objectID": "posts/161123/index.html",
+    "href": "posts/161123/index.html",
+    "title": "[Transcripting manga: Shiny App]",
     "section": "",
-    "text": "Introduction to Yonkou Project\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 16, 2023\n\n\nErika Borelli\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 16, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "One of the main data that we want to analyse is the transcription of the manga. Looking trough the internet we couldn’t find the manga transcription in any place. That´s unfortunately because it´s a rich data to make text mining and get some interesting insights.\nCurrently the manga has 1099 manga chapters, and each chapter may on average 20 pages with history.\nSo, what should we do?\n\nAttempt 1 - transcript all the pages manually. I actually started to do it, but it´ll take an eternity to complete;\nAttempt 2- try to do some deep learning:\n\nUse Image recognition to identify the line baloons on a manga page\nUse the algorithm to cut all the balloons identifyied\nUse OCR on the image to transcript the cut images\nCreate a dataframe with all the lines\n\nAttempt 3 - Create a Shiny app that helps me to use OCR and add the lines in a dataframe\n\nI´m sure there are more ways to get this data, mas these ones were what I tried. I was hoping that my second attempt will get all the data in a easy way, but what is easy in a machine learning world? I´ll probably create other post to talk about what I got right and what I got wrong.\nBut now, let’s focus on the app that I created. It’s not the final version because it was implemented in Shiny vanilla, and my objective is to use Rhino and Shiny.fluent.\nThe objective was :\n\nDisplay a manga page;\nSelect the balloom area;\nCut this area;\nUse OCT in the cut image;\nAdd in a dataframe with the name of the caracter, the type of the line (Normal, not history, flashback, thought, fight)\nSave the dataframe\n\nThese are the simplest steps for something bigger.\nThe initial image that I used was"
   },
   {
     "objectID": "posts/post-with-code/index.html",

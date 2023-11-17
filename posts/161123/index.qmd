@@ -1,0 +1,49 @@
+---
+title: "[Transcripting manga: Shiny App]"
+author: "Erika Borelli"
+date: "2023-11-16"
+categories: [news, code]
+image: "capa.PNG"
+---
+
+One of the main data that we want to analyse is the transcription of the manga. Looking trough the internet we couldn't find the manga transcription in any place. That´s unfortunately because it´s a rich data to make text mining and get some interesting insights.
+
+Currently the manga has 1099 manga chapters, and each chapter may on average 20 pages with history.
+
+So, what should we do?
+
+-   Attempt 1 - transcript all the pages manually. I actually started to do it, but it´ll take an eternity to complete;
+
+-   Attempt 2- try to do some deep learning:
+
+    -   Use Image recognition to identify the line baloons on a manga page
+
+    -   Use the algorithm to cut all the balloons identifyied
+
+    -   Use OCR on the image to transcript the cut images
+
+    -   Create a dataframe with all the lines
+
+-   Attempt 3 - Create a Shiny app that helps me to use OCR and add the lines in a dataframe
+
+I´m sure there are more ways to get this data, mas these ones were what I tried. I was hoping that my second attempt will get all the data in a easy way, but what is easy in a machine learning world? I´ll probably create other post to talk about what I got right and what I got wrong.
+
+But now, let's focus on the app that I created. It's not the final version because it was implemented in Shiny vanilla, and my objective is to use Rhino and Shiny.fluent.
+
+The objective was :
+
+-   Display a manga page;
+
+-   Select the balloom area;
+
+-   Cut this area;
+
+-   Use OCT in the cut image;
+
+-   Add in a dataframe with the name of the caracter, the type of the line (Normal, not history, flashback, thought, fight)
+
+-   Save the dataframe
+
+These are the simplest steps for something bigger.
+
+The initial image that I used was
